@@ -17,4 +17,17 @@ App for managing chats from platforms
 - jak Gmail, Outlook - labels, priority, (NNN, decision tree?)
 - jakieś presety, default filtry "Żeby user nie musiał ustawiać kolejnych jakiś reguł"
 - "rozwiązać problem powiadomień, żeby nie zalewało usera, ale jednocześnie żeby był na bieżąco"
+
+# Templates
+- email templates
+- custom email templates
+- message snippets
+- dynamic/variable message/templates snippets (integrations, webhooks)
 - 
+
+# AI Integrations 
+- all AI chats available for a gas price
+- AI can help with messages/emails etc
+
+# Profiles 
+- multiple accounts for one platform
