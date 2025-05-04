@@ -1,0 +1,18 @@
+# Architecture Ideas
+
+## Tech Stack
+- MVC monolit
+- C# / .NET (większość osób ogarnia, ewentualnie łatwe do ogarnięcia)
+- Desktop App / C#
+- Webapp / Angular
+- Relacyjna Baza Danych: PostGres, MySQL (rozwiązania NoSQL nie wydają się wielce sensowne, PostGres ma caching więc nie trzeba redis, ale caching i tak nie wydaje się konieczne)
+
+Architektura MVC, jest jednolity UI, który queruje .NET API. Adapter pattern, żeby stworzyć jednolitą strukturę danych, którą można wyświetlić w View. Serwisy komunikują się z bazą danych i 3rd party stronkami. Ewentualna warstwa integrajyna do przechowywania danych. Szyforwanie danych. 
+
+## Problems
+- Realtime messaging integration? (integracje platfrom meta, slack, itd)
+- OAuth Login
+- Szyfrowanie 
+- UI Design
+- UX workflow, optimization 
+- competition <https://www.youtube.com/watch?v=uczR0w-4LUY>
